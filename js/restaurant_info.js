@@ -16,6 +16,7 @@ window.initMap = () => {
       });
       fillBreadcrumb();
       DBHelper.mapMarkerForRestaurant(self.restaurant, self.map);
+      //center the map view 
         google.maps.event.addDomListener(window, 'resize', function () {
           map.setCenter(restaurant.latlng);
         });   

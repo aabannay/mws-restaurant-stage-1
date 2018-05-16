@@ -80,6 +80,7 @@ window.initMap = () => {
     center: loc,
     scrollwheel: false
   });
+  //center the map view
   google.maps.event.addDomListener(window, 'resize', function () {
     map.setCenter(loc);
   });
