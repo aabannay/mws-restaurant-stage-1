@@ -20,7 +20,7 @@
     <section id="map-container">
       <div id="map"></div>
     </section>
-    <section>
+    <section role="region" aria-label="restaurants details">
       <div class="filter-options">
         <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" aria-lable="Select neighborhoods" tabindex="1" onchange="updateRestaurants()">
@@ -42,7 +42,7 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA32vABX6bd38gkheIm3O4ocWekMfrfzu0&libraries=places&callback=initMap"></script>
          
 
-  <footer id="footer">
+  <footer id="footer" role="contentinfo">
     Copyright (c) 2017 <a href="/" aria-label="link to restaurant reviews home page"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
 

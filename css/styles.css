@@ -284,7 +284,7 @@ nav h1 a {
     height: auto;
   }
   .inside #map-container {
-    height: 550px;
+    height: 50%;
   }
 }
 
@@ -303,6 +303,9 @@ nav h1 a {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+  }
+  #map-container {
+    height: 50%;
   }
 }
 
